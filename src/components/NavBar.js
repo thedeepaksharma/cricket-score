@@ -5,8 +5,8 @@ import { amber } from '@material-ui/core/colors';
 
 function NavBar() {
     return (
-        <AppBar position="static">
-            <Toolbar>
+        <AppBar position="static" style={{marginTop: 15}}>
+            <Toolbar >
                 <IconButton>
                     <SportsCricketIcon style={{color:amber[500]}}></SportsCricketIcon>
                 </IconButton>
